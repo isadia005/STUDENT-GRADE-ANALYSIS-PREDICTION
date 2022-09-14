@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+<p id="gif"> </p>
+<h3 id="bg"><b> <a id="a" href="HOME.html">Go Back To Home Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b></h3>
+<br>
+<h1 id="h1_1"> <u>Grade Prediction</u>  </h1>
+<br>
+
+<form method="get" onsubmit="return myFunction()">
+<fieldset id="fieldset">
+<legend id="legend"><b><RESEVATION<b></legend>
+<br>
+<table id="table_4" >
+
+
+<tr>
+<th id="form_1">Grade 1  </th>
+<td "form_2"> &nbsp;&nbsp;&nbsp;&nbsp;<b>:</b><input type="text"  name="g1" placeholder="Enter Your Grade 1" maxlength="15" required autofocus> </td>
+</tr>
+
+
+<tr>
+<th id="form_1">Grade 2  </th>
+<td id="form_2"><b>:</b><input id = "value" type="text"  name="g2" placeholder="Enter Your Grade 2" maxlength="15" required>  </td>
+</tr>
+
+
+
+<tr>
+<th id="form_1"> Studytime  </th>
+<td id="form_2"> <b>:</b><input type="text"  name="stime" placeholder="Enter Your Study Hours" maxlength="15" required> </td>
+</tr>
+
+
+<tr>
+<th id="form_1"> Health </th>
+<td id="form_2"> <b>:</b><input type="text"  name="health" placeholder="Enter Your Health Status" maxlength="15" required> </td>
+</tr>
+
+
+<tr>
+<th id="form_1">Family <br>Relationship </th>
+<td id="form_2"> <b>:</b><input type="text"  name="famrel" placeholder="Enter Your Family Relation" maxlength="20" required> </td>
+</tr>
+  
+<tr>
+<th id="form_1">Failures </th>
+<td id="form_2"> <b>:</b><input type="text"  name="failures" placeholder="Enter Your Failures" maxlength="20" required> </td>
+</tr>
+
+<tr>
+<th id="form_1">Absences </th>
+<td id="form_2"> <b>:</b><input type="text"  name="absences" placeholder="Enter Your Absences" maxlength="20" required> </td>
+</tr>
+
+<tr>
+<th id="form_1">Gender  </th>
+<td id="form_2"><b>:</b> <input type="radio" id="male" name="gender" value="male" checked required>Male
+<input type="radio" id="female" name="gender" value="female" required>Female </td>
+</tr>
+
+<tr>
+<th id="form_1">  </th>
+<td id="form_2">&nbsp;&nbsp;&nbsp;<input id="submit" type="submit" value="Predict">
+&nbsp;&nbsp;<input id="reset" type="reset" value="Reset">  </td>
+</tr>
+
+ 
+</table>
+</fieldset>
+</form> 
+<script>
+    function myFunction() {
+        
+  var data = document.getElementById("value").value;
+              
+  if (data <= 20 && data >= 17) {
+    alert("Hi! Your Predicted Grade is: 19");    
+} else if (data <= 16 && data >= 12) {
+    alert("Hi! Your Predicted Grade is: 13");
+} else if (data <= 11 && data >= 8) {
+    alert("Hi! Your Predicted Grade is: 9");
+} else if (data <= 8 && data >= 4) {
+    alert("Hi! Your Predicted Grade is: 4");
+}
+else {
+  alert("Hi! Your Predicted Grade is: 2");
+}
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,252 @@
+#gif{
+padding: 55px;
+background-image: url("https://i.pinimg.com/originals/ad/7e/b0/ad7eb096de5d478f75a588df5f283c3f.gif");
+}
+
+#bg{
+text-align: center;
+background-color:#0077b3;
+font-size:150%;
+padding: 25px;
+text-shadow: 3px 3px 5px black;
+}
+
+#a{
+color: white;
+}
+
+#block{
+position: relative;
+}
+
+#title{
+position: absolute;
+font-size:350%;
+font-family:Times New Roman;
+top: 25px;
+center: 25px;
+border-style: solid;
+border-width: 7px;
+background-color:#004d80;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+text-shadow: 3px 3px 5px black;
+}
+
+
+#table_1{
+width:100%;
+}
+
+#td_1{
+font-size:130%;
+font-family:Century Gothic;
+
+}
+
+
+#table_2{
+width:100%;
+}
+
+
+#td_2{
+font-size:130%;
+font-family:Century Gothic;
+}
+
+
+#p_1{
+text-align:center;
+font-size:150%;
+font-family:High Tower Text;
+color:#004d80 ;
+}
+
+#img_1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#h1_1{
+text-align:center;
+font-size:350%;
+font-family:Courier New;
+color: #004d80;
+text-shadow: 2px 2px 1px #0E3B6A;
+}
+
+
+
+#fieldset{
+background-color: white;
+background-image: url("https://www.parents.com/thmb/iGza33DxyfcGLoYGenx-fB3JYbs=/1000x646/filters:fill(auto,1)/shutterstock_172261862-2--d36510500ca044e1bd9bb51f798b3141.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+
+}
+
+#form_1{
+ padding: 15px;
+ vertical-align: top;
+ font-family:Courier New;
+ text-align:left;
+}
+
+#form_2{
+ padding: 15px;
+font-family:Courier New;
+
+}
+
+#table_4{
+width:600;
+background-color: #ffff66;
+border: 3px solid #004d80 ;
+border-collapse: separate;
+border-spacing: 4px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#submit:hover{
+background-color:  #00802b;
+}
+
+
+#submit{
+background-color:#07B248 ;
+border: 3px solid #00b300 ;
+color: white;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+border-radius: 8px;
+}
+
+
+#reset:hover{
+background-color: #00802b;
+}
+
+
+#reset {
+background-color: #07B248;
+border: 3px solid #00b300 ;
+color: white;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+
+border-radius: 8px;
+}
+
+
+
+
+#h1_2{
+text-align:center;
+font-size:250%;
+font-family:Eras Bold ITC;
+color: #004d80;
+text-shadow: 3px 3px 5px #0E3B6A;
+
+}
+
+#table_5{
+margin-left: auto;
+margin-right: auto;
+font-family:Courier New;
+}
+#td_5{
+padding: 15px;
+}
+
+#h1_3{
+text-align:center;
+font-size:300%;
+font-family:Eras Bold ITC;
+color: #004d80;
+text-shadow: 2px 2px 1px #0E3B6A;
+}
+
+
+#table_6{
+margin-left: auto;
+margin-right: auto;
+font-family:Courier New;
+border: 3px solid #004d80 ;
+border-spacing: 4px;
+background-color:#ffff80;
+}
+
+
+#survey_title{
+text-align:center;
+font-size:150%;
+font-family:Eras Bold ITC;
+color: #004d80;
+text-shadow: 2px 2px 1px #0E3B6A;
+}
+
+
+
+
+
+#submit_survey:hover{
+background-color:  #00802b;
+}
+
+
+#submit_survey{
+background-color:#07B248 ;
+border: 3px solid #00b300 ;
+color: white;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+border-radius: 8px;
+}
+
+
+
+
+.bg-img
+{
+background-image:url("login.jpg");
+min-height:500px;
+background-position:center;
+background-size:cover;
+position:relative;
+}
+
+.container
+{
+right:0;
+margin:20px;
+width:300px;
+padding:16px;
+background-color:white;
+}
+
+
+.inputLogin
+{
+width:100%;
+padding:8px;
+border:none;
+background:#D2EBF3;
+}
+
+.SubmitLogin
+{background-color:#AB845B;
+color:white;
+width:30%;
+padding:10px 16px;
+}
+
+
